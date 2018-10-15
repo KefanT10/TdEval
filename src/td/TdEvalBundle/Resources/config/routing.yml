@@ -1,0 +1,12 @@
+td_td_eval_homepage:
+    path:     /
+    defaults: { _controller: tdTdEvalBundle:Default:index }
+    
+td_td_eval_salarie:
+    path:     /salarie
+    defaults: { _controller: tdTdEvalBundle:Salarie:newSalarie } 
+
+td_td_eval_salarie2:
+    path:     /salarie2
+    defaults: { _controller: tdTdEvalBundle:Salarie:getPcFromSalarie }    
+    
